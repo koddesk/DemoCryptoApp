@@ -19,6 +19,7 @@
 		2441AC7D2A72ACDB00520379 /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2441AC7C2A72ACDB00520379 /* CoinRowView.swift */; };
 		2441AC7F2A72AD4500520379 /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2441AC7E2A72AD4500520379 /* PreviewProvider.swift */; };
 		2441AC812A72B28D00520379 /* Double + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2441AC802A72B28D00520379 /* Double + Extensions.swift */; };
+		2441AC832A73B94100520379 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2441AC822A73B94100520379 /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		2441AC7C2A72ACDB00520379 /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
 		2441AC7E2A72AD4500520379 /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
 		2441AC802A72B28D00520379 /* Double + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double + Extensions.swift"; sourceTree = "<group>"; };
+		2441AC822A73B94100520379 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		2441AC702A7281C400520379 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				2441AC822A73B94100520379 /* HomeViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2441AC7D2A72ACDB00520379 /* CoinRowView.swift in Sources */,
+				2441AC832A73B94100520379 /* HomeViewModel.swift in Sources */,
 				2441AC5F2A727A4300520379 /* ContentView.swift in Sources */,
 				2441AC722A7281D400520379 /* HomeView.swift in Sources */,
 				2441AC5D2A727A4300520379 /* DemoCryptoApp.swift in Sources */,
